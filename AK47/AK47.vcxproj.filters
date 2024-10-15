@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD2\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vendor\ImGui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLAD2\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLAD2\khrplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHADER.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stbi %28TEXTURELOADER%29\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fragmentshader.frag" />
+    <None Include="Shaders\vertexshader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\grass\grass01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass20.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass19.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass05.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass06.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass07.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass08.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass09.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass11.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass12.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass13.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass14.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass16.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass17.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\grass\grass18.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\CPUPhoto\cpu.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="textures\awesomeface\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
